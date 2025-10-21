@@ -54,12 +54,12 @@ namespace KorisnickiInterfejs.UIKontroler
             }
         }
         //SK-ovi
-        public Stanodavac Login(string email, string password)
+        public Stanodavac Login(Stanodavac stanodavac)
         {
             Zahtev zahtev = new Zahtev
             {
                 Operacija = Operacija.PrijaviStanodavac,
-                Podaci = new Stanodavac { Email = email, Password = password }
+                Podaci = stanodavac
             };
             serializer.Send(zahtev);
             Odgovor odgovor = serializer.Recieve<Odgovor>();

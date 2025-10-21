@@ -24,7 +24,7 @@ namespace BrokerBazePodataka
             connection?.Close();
         }
         /////SLUCAJEVI KORISCENJA////////
-        public Stanodavac Login(string email, string password)
+        public Stanodavac Login(Stanodavac stanodavac)
         {
             try
             {
@@ -32,8 +32,8 @@ namespace BrokerBazePodataka
                 string upit = "SELECT * FROM Stanodavac WHERE Email=@email AND Password=@password";
                 using (SqlCommand cmd = new SqlCommand(upit, connection))
                 {
-                    cmd.Parameters.AddWithValue("@email", email);
-                    cmd.Parameters.AddWithValue("@password", password);
+                    cmd.Parameters.AddWithValue("@email", stanodavac.Email);
+                    cmd.Parameters.AddWithValue("@password", stanodavac.Password);
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         if (reader.Read())

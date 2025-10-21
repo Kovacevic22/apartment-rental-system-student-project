@@ -68,3 +68,4 @@ C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Server\obj\De
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Server\obj\Debug\net8.0-windows\Server.pdb
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Server\obj\Debug\net8.0-windows\Server.genruntimeconfig.cache
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Server\obj\Debug\net8.0-windows\ref\Server.dll
+C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Server\obj\Debug\net8.0-windows\Server.sourcelink.json

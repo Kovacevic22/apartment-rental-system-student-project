@@ -9,3 +9,4 @@ C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Deb
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Debug\net8.0\refint\Domen.dll
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Debug\net8.0\Domen.pdb
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Debug\net8.0\ref\Domen.dll
+C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Debug\net8.0\Domen.sourcelink.json

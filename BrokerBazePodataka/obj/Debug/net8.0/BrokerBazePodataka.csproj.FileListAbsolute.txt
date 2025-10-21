@@ -13,3 +13,4 @@ C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\BrokerBazePod
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\BrokerBazePodataka\obj\Debug\net8.0\refint\BrokerBazePodataka.dll
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\BrokerBazePodataka\obj\Debug\net8.0\BrokerBazePodataka.pdb
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\BrokerBazePodataka\obj\Debug\net8.0\ref\BrokerBazePodataka.dll
+C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\BrokerBazePodataka\obj\Debug\net8.0\BrokerBazePodataka.sourcelink.json

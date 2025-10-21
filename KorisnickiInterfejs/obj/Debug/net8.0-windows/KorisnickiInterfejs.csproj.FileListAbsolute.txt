@@ -26,3 +26,4 @@ C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\KorisnickiInt
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\KorisnickiInterfejs\obj\Debug\net8.0-windows\KorisnickiInterfejs.UgovorForme.FrmKreirajUgovor.resources
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\KorisnickiInterfejs\obj\Debug\net8.0-windows\KorisnickiInterfejs.UgovorForme.FrmPretraziUgovore.resources
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\KorisnickiInterfejs\obj\Debug\net8.0-windows\KorisnickiInterfejs.StanodavacForme.FrmUbaciTerminIznajmljivanja.resources
+C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\KorisnickiInterfejs\obj\Debug\net8.0-windows\KorisnickiInterfejs.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Zajednicki\bi
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Zajednicki\bin\Debug\net8.0\Domen.pdb
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Zajednicki\obj\Debug\net8.0\Zajednicki.csproj.AssemblyReference.cache
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Zajednicki\obj\Debug\net8.0\Zajednicki.csproj.Up2Date
+C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Zajednicki\obj\Debug\net8.0\Zajednicki.sourcelink.json

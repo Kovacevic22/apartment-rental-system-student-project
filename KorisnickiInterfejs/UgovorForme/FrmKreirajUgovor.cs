@@ -42,8 +42,6 @@ namespace KorisnickiInterfejs.UgovorForme
 
                 dtpDatumOd.MinDate = DateTime.Today;
                 dtpDatumDo.MinDate = dtpDatumOd.Value.AddDays(1);
-
-                MessageBox.Show("Sistem je kreirao ugovor.", "Obavestenje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
@@ -192,19 +190,19 @@ namespace KorisnickiInterfejs.UgovorForme
                     IdZakupac = izabraniZakupac.IdZakupac,
                     StavkeUgovora = dodateStavke
                 };
-                var result = MessageBox.Show($"Da li ste sigurni da zelite da zapamtite ugovor za {izabraniZakupac.ImePrezime}?", "Potvrda", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show($"Da li ste sigurni da zelite da kreirate ugovor za {izabraniZakupac.ImePrezime}?", "Potvrda", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if(result == DialogResult.No)
                 {
                     return;
                 }
                 Kontroler.Instance.KreirajUgovor(ugovor);
-                MessageBox.Show("Sistem je zapamtio ugovor.", "Obavestenje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sistem je kreirao ugovor.", "Obavestenje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 ResetujFormu();
             }
             catch (Exception ex)
             {
                 Helper.ProveraServerGreske(ex);
-                MessageBox.Show($"Sistem ne moze da zapamti ugovor. {ex.Message}", "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Sistem ne moze da kreira ugovor. {ex.Message}", "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

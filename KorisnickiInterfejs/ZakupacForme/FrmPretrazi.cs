@@ -185,7 +185,7 @@ namespace KorisnickiInterfejs.ZakupacForme
                     MessageBox.Show("Password ne sme biti prazan.", "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                DialogResult result = MessageBox.Show($"Da li ste sigurni da zelite da izmenite zakupca?", "Potvrda izmene", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show($"Da li ste sigurni da zelite da izmenite zakupca?", "Potvrda izmene", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.No) return;
                 Zakupac zakupac = new Zakupac()
                 {

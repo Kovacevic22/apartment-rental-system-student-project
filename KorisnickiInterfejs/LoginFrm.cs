@@ -31,7 +31,7 @@ namespace KorisnickiInterfejs
             {
                 Kontroler kontroler = Kontroler.Instance;
                 kontroler.Connect();
-                Stanodavac prijavljeni = kontroler.Login(txtEmail.Text, txtPassword.Text);
+                Stanodavac prijavljeni = kontroler.Login(new Stanodavac { Email = txtEmail.Text, Password = txtPassword.Text});
                 if (prijavljeni != null)
                 {
                     MessageBox.Show("Uspesno ste se prijavili!", "Uspesno", MessageBoxButtons.OK, MessageBoxIcon.Information);

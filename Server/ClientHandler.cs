@@ -1,6 +1,7 @@
 ﻿
 using BrokerBazePodataka;
 using Domen;
+using Server.Operacije;
 using System.Net.Sockets;
 using System.Text.Json;
 using Zajednicki;
@@ -29,408 +30,23 @@ namespace Server
                 {
                     Zahtev zahtev = serializer.Recieve<Zahtev>();
                     if (zahtev == null) break;
-                    serverFrm?.DodajLog($"Zahtev: {zahtev.Operacija}");
+                    serverFrm?.DodajLog($"Stigao zahtev: {zahtev.Operacija}");
                     Odgovor odgovor;
-                    switch (zahtev.Operacija)
+                    OperacijaBaze operacija = KreirajOperaciju(zahtev.Operacija, broker);
+                    if(operacija != null)
                     {
-                        case Operacija.PrijaviStanodavac:
-                            try
-                            {
-                                Stanodavac trazen = JsonSerializer.Deserialize<Stanodavac>((JsonElement)zahtev.Podaci);
-                                Stanodavac pronadjen = broker.Login(trazen.Email, trazen.Password);
-                                if (pronadjen != null)
-                                {
-                                    if (server.DaliJeKorisnikPrijavljen(pronadjen.IdStanodavac))
-                                    {
-                                        odgovor = new Odgovor()
-                                        {
-                                            Signal = false,
-                                            Poruka = "Korisnik je vec ulogovan.",
-                                            Podaci = null
-                                        };
-                                    }
-                                    else
-                                    {
-                                        server.DodajPrijavljenogKorisnika(pronadjen.IdStanodavac, klijentskiSocket);
-                                        odgovor = new Odgovor()
-                                        {
-                                            Signal = true,
-                                            Poruka = "Korisnicko ime i sifra su ispravni.",
-                                            Podaci = pronadjen
-                                        };
-                                    }
-                                }
-                                else
-                                {
-                                    // Login nije uspeo
-                                    odgovor = new Odgovor()
-                                    {
-                                        Signal = false,
-                                        Poruka = "Korisnicko ime i sifra nisu ispravni.",
-                                        Podaci = null
-                                    };
-                                }
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.KreirajZakupac:
-                            try
-                            {
-                                Zakupac noviZakupac = JsonSerializer.Deserialize<Zakupac>((JsonElement)zahtev.Podaci);
-                                broker.KreirajZakupac(noviZakupac);
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je zapamtio zakupca.",
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                                break;
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                                break;
-                            }
-                        case Operacija.VratiSvaMesta:
-                            try
-                            {
-                                List<Mesto> mesta = broker.VratiSvaMesta();
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je ucitao sva mesta.",
-                                    Podaci = mesta
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.VratiSveZakupce:
-                            try
-                            {
-                                List<Zakupac> zakupci = broker.VratiSveZakupce();
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je ucitao sve zakupce.",
-                                    Podaci = zakupci
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.PretraziZakupac:
-                            try
-                            {
-                                ZakupacSearchParametri kriterijumPretrage = JsonSerializer.Deserialize<ZakupacSearchParametri>((JsonElement)zahtev.Podaci);
-                                List<Zakupac> zakupciPretraga = broker.PretraziZakupac(kriterijumPretrage.Email, kriterijumPretrage.Ime, kriterijumPretrage.Prezime, kriterijumPretrage.MestoId);
-                                odgovor = new Odgovor()
-                                {
-                                    Signal = true,
-                                    Poruka = zakupciPretraga.Count > 1 ? "Sistem je nasao zakupce po zadatim kriterijumima" : "Sistem je nasao zakupca",
-                                    Podaci = zakupciPretraga,
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.PromeniZakupac:
-                            try
-                            {
-                                Zakupac izmenjenZakupac = JsonSerializer.Deserialize<Zakupac>((JsonElement)zahtev.Podaci);
-                                broker.PromeniZakupac(izmenjenZakupac);
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je zapamtio zakupca.",
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.ObrisiZakupac:
-                            try
-                            {
-                                int idZakupac = JsonSerializer.Deserialize<int>((JsonElement)zahtev.Podaci);
-                                broker.ObrisiZakupac(idZakupac);
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je obrisao zakupca.",
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.VratiSveStanove:
-                            try
-                            {
-                                List<Stan> stanovi = broker.VratiListuStanova();
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je ucitao sve stanove.",
-                                    Podaci = stanovi
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.KreirajUgovor:
-                            try
-                            {
-                                Ugovor noviUgovor = JsonSerializer.Deserialize<Ugovor>((JsonElement)zahtev.Podaci);
-                                broker.KreirajUgovor(noviUgovor);
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je zapamtio ugovor.",
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.PretraziUgovor:
-                            try
-                            {
-                                UgovorSearchParametri parametri = JsonSerializer.Deserialize<UgovorSearchParametri>((JsonElement)zahtev.Podaci);
-                                List<Ugovor> ugovorPretraga = broker.PretraziUgovor(parametri.datumOd, parametri.datumDo, parametri.idZakupac, parametri.idStanodavac);
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Podaci = ugovorPretraga,
-                                    Poruka = "Sistem je nasao ugovore po zadatim kriterijumima"
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.VratiSveUgovore:
-                            try
-                            {
-                                List<Ugovor> ugovori = broker.VratiSveUgovore();
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je ucitao sve ugovore",
-                                    Podaci = ugovori
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.VratiUgovorSaStavkama:
-                            try
-                            {
-                                int idUgovor = JsonSerializer.Deserialize<int>((JsonElement)zahtev.Podaci);
-                                Ugovor ugovor = broker.VratiUgovorSaStavkama(idUgovor);
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Podaci = ugovor,
-                                    Poruka = "Sistem je vratio ugovore sa stavkama"
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.PromeniUgovor:
-                            try
-                            {
-                                Ugovor izmenjenUgovor = JsonSerializer.Deserialize<Ugovor>((JsonElement)zahtev.Podaci);
-                                broker.PromeniUgovor(izmenjenUgovor);
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je zapamtio ugovor",
-                                    Podaci = zahtev.Podaci
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        case Operacija.UbaciTerminIznajmljivanja:
-                            try
-                            {
-                                UbaciTerminIzinajmljivanjaPodaci podaci = JsonSerializer.Deserialize<UbaciTerminIzinajmljivanjaPodaci>((JsonElement)zahtev.Podaci);
-                                broker.UbaciTerminIznajmljivnja(podaci.terminIznajmljivanja, podaci.idStanodavac, podaci.opisStatusa);
-                                odgovor = new Odgovor
-                                {
-                                    Signal = true,
-                                    Poruka = "Sistem je zapamtio termin iznajmljivanja.",
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            catch (Exception ex)
-                            {
-                                odgovor = new Odgovor
-                                {
-                                    Signal = false,
-                                    Poruka = ex.Message,
-                                    Podaci = null
-                                };
-                                serializer.Send(odgovor);
-                                serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
-                            }
-                            break;
-                        default:
-                            odgovor = new Odgovor()
-                            {
-                                Signal = false,
-                                Poruka = "Nepoznata operacija!",
-                                Podaci = null
-                            };
-                            serializer.Send(odgovor);
-                            serverFrm?.DodajLog($"{odgovor.Poruka}");
-                            break;
+                        odgovor = operacija.Izvrsi(zahtev, serverFrm);
+                    }else
+                    {
+                        odgovor = new Odgovor
+                        {
+                            Signal = false,
+                            Poruka = "Nepoznata operacija",
+                            Podaci = null
+                        };
+                        serverFrm?.DodajLog($"Signal {odgovor.Signal}: {odgovor.Poruka}");
                     }
+                    serializer.Send(odgovor);
                 }
             }
             catch (Exception ex)
@@ -452,5 +68,56 @@ namespace Server
                 catch { }
             }
         }
+
+        private OperacijaBaze KreirajOperaciju(Operacija op, BrokerBP broker)
+        {
+            switch (op)
+            {
+                case Operacija.PrijaviStanodavac:
+                    return new PrijaviStanodavacOp(broker, server, klijentskiSocket);
+                case Operacija.KreirajZakupac:
+                    return new KreirajZakupacOp(broker);
+
+                case Operacija.VratiSvaMesta:
+                    return new VratiSvaMestaOp(broker);
+
+                case Operacija.VratiSveZakupce:
+                    return new VratiSveZakupceOp(broker);
+
+                case Operacija.PretraziZakupac:
+                    return new PretraziZakupacOp(broker);
+
+                case Operacija.PromeniZakupac:
+                    return new PromeniZakupacOp(broker);
+
+                case Operacija.ObrisiZakupac:
+                    return new ObrisiZakupacOp(broker);
+
+                case Operacija.VratiSveStanove:
+                    return new VratiSveStanoveOp(broker);
+
+                case Operacija.KreirajUgovor:
+                    return new KreirajUgovorOp(broker);
+
+                case Operacija.PretraziUgovor:
+                    return new PretraziUgovorOpcs(broker);
+
+                case Operacija.VratiSveUgovore:
+                    return new VratiSveUgovoreOp(broker);
+
+                case Operacija.VratiUgovorSaStavkama:
+                    return new VratiUgovorSaStavkamaOp(broker);
+
+                case Operacija.PromeniUgovor:
+                    return new PromeniUgovorOp(broker);
+
+                case Operacija.UbaciTerminIznajmljivanja:
+                    return new UbaciTerminIznajmljivanjaOp(broker);
+
+                default:
+                    return null;
+            }
+        }
+
     }
 }
