@@ -23,7 +23,7 @@ namespace Server.Operacije
         protected override object IzvrsiOperaciju(object podaci)
         {
             UbaciTerminIzinajmljivanjaPodaci parametri = (UbaciTerminIzinajmljivanjaPodaci)podaci;
-            broker.UbaciTerminIznajmljivnja(parametri.terminIznajmljivanja, parametri.idStanodavac, parametri.opisStatusa);
+            broker.UbaciTerminIznajmljivanja(parametri.terminIznajmljivanja, parametri.idStanodavac, parametri.opisStatusa);
             return null;
         }
         protected override string PorukaUspesno()

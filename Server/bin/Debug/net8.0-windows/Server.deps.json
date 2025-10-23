@@ -413,6 +413,9 @@
         }
       },
       "Domen/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "6.1.2"
+        },
         "runtime": {
           "Domen.dll": {
             "assemblyVersion": "1.0.0.0",
