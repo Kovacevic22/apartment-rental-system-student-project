@@ -121,6 +121,7 @@ namespace KorisnickiInterfejs.UgovorForme
                 {
                     MessageBox.Show("Sistem ne moze da nadje ugovore po zadatim kriterijumima.", "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     dgvPretragaUgovora.DataSource = Kontroler.Instance.VratiSveUgovore();
+                    OsveziTxtBoxeve();
                     return;
                 }
                 else if (ugovori.Count == 1)
@@ -132,12 +133,26 @@ namespace KorisnickiInterfejs.UgovorForme
                     MessageBox.Show("Sistem je nasao ugovore po zadatim kriterijumima.", "Infomracija", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 dgvPretragaUgovora.DataSource = ugovori;
+                OsveziTxtBoxeve();
             }
             catch (Exception ex)
             {
                 Helper.ProveraServerGreske(ex);
                 MessageBox.Show("Sistem ne moze da nadje ugovor", "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void OsveziTxtBoxeve()
+        {
+            txtIdUgovor.Clear();
+            dtpDatumOd.Value = DateTime.Now;
+            dtpDatumDo.Value = dtpDatumOd.Value.AddDays(1);
+            txtStanodavac.Clear();
+            cmbZakupac.SelectedIndex = -1;
+            txtUkupniIznos.Clear();
+            txtIznosStan.Clear();
+            dgvStanoviUgovor.ClearSelection();
+            dgvStanoviUgovor.DataSource = new BindingList<StavkaUgovora>();
         }
 
         private void btnDetalji_Click(object sender, EventArgs e)

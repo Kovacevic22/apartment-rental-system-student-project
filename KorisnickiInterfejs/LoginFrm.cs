@@ -34,7 +34,7 @@ namespace KorisnickiInterfejs
                 Stanodavac prijavljeni = kontroler.Login(new Stanodavac { Email = txtEmail.Text, Password = txtPassword.Text});
                 if (prijavljeni != null)
                 {
-                    MessageBox.Show("Uspesno ste se prijavili!", "Uspesno", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Korisnicko ime i sifra su ispravni.", "Uspesno", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     FrmMain frmMain = new FrmMain(prijavljeni);
                     frmMain.Show();
                     this.Hide();

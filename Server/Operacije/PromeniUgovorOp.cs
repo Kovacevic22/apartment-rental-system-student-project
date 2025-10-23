@@ -24,7 +24,7 @@ namespace Server.Operacije
         {
             Ugovor izmenjen = (Ugovor)podaci;
             broker.PromeniUgovor(izmenjen);
-            return podaci;
+            return null;
         }
         protected override string PorukaUspesno()
         {

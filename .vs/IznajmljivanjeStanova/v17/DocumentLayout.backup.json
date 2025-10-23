@@ -3,128 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C57948CD-F6A7-463B-9797-0E7288DF4020}|BrokerBazePodataka\\BrokerBazePodataka.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\brokerbazepodataka\\brokerbp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57948CD-F6A7-463B-9797-0E7288DF4020}|BrokerBazePodataka\\BrokerBazePodataka.csproj|solutionrelative:brokerbazepodataka\\brokerbp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\kreirajugovorop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\kreirajugovorop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\kreirajzakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\kreirajzakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacijabaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacijabaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\obrisizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\obrisizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\pretraziugovoropcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\pretraziugovoropcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\pretrazizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\pretrazizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\prijavistanodavacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\prijavistanodavacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\promeniugovorop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\promeniugovorop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\promenizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\promenizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\ubaciterminiznajmljivanjaop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\ubaciterminiznajmljivanjaop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\vratisvamestaop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\vratisvamestaop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\vratisvestanoveop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\vratisvestanoveop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\vratisveugovoreop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\vratisveugovoreop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\vratisvezakupceop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\vratisvezakupceop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\vratiugovorsastavkamaop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\vratiugovorsastavkamaop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\korisnickiinterfejs\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\loginfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\uikontroler\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\uikontroler\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C57948CD-F6A7-463B-9797-0E7288DF4020}|BrokerBazePodataka\\BrokerBazePodataka.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\brokerbazepodataka\\brokerbp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C57948CD-F6A7-463B-9797-0E7288DF4020}|BrokerBazePodataka\\BrokerBazePodataka.csproj|solutionrelative:brokerbazepodataka\\brokerbp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacijabaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacijabaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\operacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\operacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\zahtev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\zahtev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\zakupacforme\\frmpretrazi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\zakupacforme\\frmpretrazi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\korisnickiinterfejs\\zakupacforme\\frmpretrazi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\zakupacforme\\frmpretrazi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\zakupacforme\\frmkreirajzakupca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\zakupacforme\\frmkreirajzakupca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\korisnickiinterfejs\\zakupacforme\\frmkreirajzakupca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\zakupacforme\\frmkreirajzakupca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\ugovorforme\\frmpretraziugovore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\ugovorforme\\frmpretraziugovore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\korisnickiinterfejs\\ugovorforme\\frmpretraziugovore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\ugovorforme\\frmpretraziugovore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\ugovorforme\\frmkreirajugovor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\ugovorforme\\frmkreirajugovor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\korisnickiinterfejs\\ugovorforme\\frmkreirajugovor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\ugovorforme\\frmkreirajugovor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\ugovorforme\\frmkreirajugovor.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\ugovorforme\\frmkreirajugovor.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\serverfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,56 +35,40 @@
       "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\serverfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\korisnickiinterfejs\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\jsonnetworkserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\jsonnetworkserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\stanodavacforme\\frmubaciterminiznajmljivanja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\stanodavacforme\\frmubaciterminiznajmljivanja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\korisnickiinterfejs\\uikontroler\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\uikontroler\\kontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\korisnickiinterfejs\\stanodavacforme\\frmubaciterminiznajmljivanja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7502505D-24A1-4F2B-B82E-48DCA56A9D7D}|KorisnickiInterfejs\\KorisnickiInterfejs.csproj|solutionrelative:korisnickiinterfejs\\stanodavacforme\\frmubaciterminiznajmljivanja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\operacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\operacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\ubaciterminizinajmljivanjapodaci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\ubaciterminizinajmljivanjapodaci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\odgovor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\odgovor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\domen\\zakupac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|solutionrelative:domen\\zakupac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\pretraziugovoropcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\pretraziugovoropcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\pretrazizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\pretrazizakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\domen\\opisstatusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|solutionrelative:domen\\opisstatusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\zahtev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\zahtev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\domen\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|solutionrelative:domen\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\ugovorsearchparametri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\ugovorsearchparametri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\zajednicki\\zakupacsearchparametri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7039E901-81F4-455E-B7F9-552D6D6CFA25}|Zajednicki\\Zajednicki.csproj|solutionrelative:zajednicki\\zakupacsearchparametri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\domen\\stavkaugovora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|solutionrelative:domen\\stavkaugovora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\domen\\stan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B5FCB6C-47CF-414C-A4C3-13BDBFC84F53}|Domen\\Domen.csproj|solutionrelative:domen\\stan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|c:\\users\\kovac\\desktop\\projektovanjesoftvera\\iznajmljivanjestanova\\server\\operacije\\kreirajzakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{861FC104-0939-42AE-9170-78E45ECB6F55}|Server\\Server.csproj|solutionrelative:server\\operacije\\kreirajzakupacop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,71 +78,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PrijaviStanodavacOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PrijaviStanodavacOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\PrijaviStanodavacOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PrijaviStanodavacOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\PrijaviStanodavacOp.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA3wCEAAABMAAAAAAAAAA==",
+              "Title": "ServerFrm.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs",
+              "RelativeDocumentMoniker": "Server\\ServerFrm.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs",
+              "RelativeToolTip": "Server\\ServerFrm.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:16:27.108Z",
+              "WhenOpened": "2025-10-22T22:10:43.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JsonNetworkSerializer.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\JsonNetworkSerializer.cs",
+              "RelativeDocumentMoniker": "Zajednicki\\JsonNetworkSerializer.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\JsonNetworkSerializer.cs",
+              "RelativeToolTip": "Zajednicki\\JsonNetworkSerializer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:37:22.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Odgovor.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Odgovor.cs",
+              "RelativeDocumentMoniker": "Zajednicki\\Odgovor.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Odgovor.cs",
+              "RelativeToolTip": "Zajednicki\\Odgovor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:40:38.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ClientHandler.cs",
+              "RelativeDocumentMoniker": "Server\\ClientHandler.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ClientHandler.cs",
+              "RelativeToolTip": "Server\\ClientHandler.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwCwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T16:27:25.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BrokerBP.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\BrokerBazePodataka\\BrokerBP.cs",
+              "RelativeDocumentMoniker": "BrokerBazePodataka\\BrokerBP.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\BrokerBazePodataka\\BrokerBP.cs",
+              "RelativeToolTip": "BrokerBazePodataka\\BrokerBP.cs",
+              "ViewState": "AgIAAIkBAAAAAAAAAIAwwPsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T21:16:28.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PretraziZakupacOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziZakupacOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\PretraziZakupacOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziZakupacOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\PretraziZakupacOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Server.cs",
+              "RelativeDocumentMoniker": "Server\\Server.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Server.cs",
+              "RelativeToolTip": "Server\\Server.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:16:56.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PretraziUgovorOpcs.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziUgovorOpcs.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\PretraziUgovorOpcs.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziUgovorOpcs.cs",
-              "RelativeToolTip": "Server\\Operacije\\PretraziUgovorOpcs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:18:43.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ObrisiZakupacOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\ObrisiZakupacOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\ObrisiZakupacOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\ObrisiZakupacOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\ObrisiZakupacOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:17:26.072Z",
+              "WhenOpened": "2025-10-22T15:43:25.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "KreirajZakupacOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\KreirajZakupacOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\KreirajZakupacOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\KreirajZakupacOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\KreirajZakupacOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Title": "OperacijaBaze.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\OperacijaBaze.cs",
+              "RelativeDocumentMoniker": "Server\\OperacijaBaze.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\OperacijaBaze.cs",
+              "RelativeToolTip": "Server\\OperacijaBaze.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:16:41.278Z",
+              "WhenOpened": "2025-10-21T20:46:05.402Z",
               "EditorCaption": ""
             },
             {
@@ -269,231 +181,98 @@
               "RelativeDocumentMoniker": "Server\\Operacije\\KreirajUgovorOp.cs",
               "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\KreirajUgovorOp.cs",
               "RelativeToolTip": "Server\\Operacije\\KreirajUgovorOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:18:29.062Z",
+              "WhenOpened": "2025-10-22T10:33:23.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ClientHandler.cs",
-              "RelativeDocumentMoniker": "Server\\ClientHandler.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ClientHandler.cs",
-              "RelativeToolTip": "Server\\ClientHandler.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwCcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T16:27:25.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "PromeniUgovorOp.cs",
               "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PromeniUgovorOp.cs",
               "RelativeDocumentMoniker": "Server\\Operacije\\PromeniUgovorOp.cs",
               "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PromeniUgovorOp.cs",
               "RelativeToolTip": "Server\\Operacije\\PromeniUgovorOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:19:38.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PromeniZakupacOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PromeniZakupacOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\PromeniZakupacOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PromeniZakupacOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\PromeniZakupacOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:17:11.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UbaciTerminIznajmljivanjaOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\UbaciTerminIznajmljivanjaOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\UbaciTerminIznajmljivanjaOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\UbaciTerminIznajmljivanjaOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\UbaciTerminIznajmljivanjaOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:19:53.943Z",
+              "WhenOpened": "2025-10-21T22:26:19.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "VratiSvaMestaOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSvaMestaOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\VratiSvaMestaOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSvaMestaOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\VratiSvaMestaOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:17:39.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VratiSveStanoveOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSveStanoveOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\VratiSveStanoveOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSveStanoveOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\VratiSveStanoveOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:18:12.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "VratiSveUgovoreOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSveUgovoreOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\VratiSveUgovoreOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSveUgovoreOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\VratiSveUgovoreOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:18:59.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VratiSveZakupceOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSveZakupceOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\VratiSveZakupceOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiSveZakupceOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\VratiSveZakupceOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:17:57.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "VratiUgovorSaStavkamaOp.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiUgovorSaStavkamaOp.cs",
-              "RelativeDocumentMoniker": "Server\\Operacije\\VratiUgovorSaStavkamaOp.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\VratiUgovorSaStavkamaOp.cs",
-              "RelativeToolTip": "Server\\Operacije\\VratiUgovorSaStavkamaOp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:19:17.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginFrm.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\LoginFrm.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\LoginFrm.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\LoginFrm.cs",
-              "RelativeToolTip": "KorisnickiInterfejs\\LoginFrm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T17:14:47.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginFrm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\LoginFrm.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\LoginFrm.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\LoginFrm.cs [Design]",
-              "RelativeToolTip": "KorisnickiInterfejs\\LoginFrm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T17:14:45.919Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Kontroler.cs",
               "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UIKontroler\\Kontroler.cs",
               "RelativeDocumentMoniker": "KorisnickiInterfejs\\UIKontroler\\Kontroler.cs",
               "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UIKontroler\\Kontroler.cs",
               "RelativeToolTip": "KorisnickiInterfejs\\UIKontroler\\Kontroler.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAADwvz0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwCkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T16:27:13.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T13:25:46.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BrokerBP.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\BrokerBazePodataka\\BrokerBP.cs",
-              "RelativeDocumentMoniker": "BrokerBazePodataka\\BrokerBP.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\BrokerBazePodataka\\BrokerBP.cs",
-              "RelativeToolTip": "BrokerBazePodataka\\BrokerBP.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAABQAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Operacija.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Operacija.cs",
+              "RelativeDocumentMoniker": "Zajednicki\\Operacija.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Operacija.cs",
+              "RelativeToolTip": "Zajednicki\\Operacija.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T17:00:23.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T15:42:20.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OperacijaBaze.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\OperacijaBaze.cs",
-              "RelativeDocumentMoniker": "Server\\OperacijaBaze.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\OperacijaBaze.cs",
-              "RelativeToolTip": "Server\\OperacijaBaze.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\Helper.cs",
+              "RelativeDocumentMoniker": "KorisnickiInterfejs\\Helper.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\Helper.cs",
+              "RelativeToolTip": "KorisnickiInterfejs\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:15:56.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T22:10:02.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FrmKreirajZakupca.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs",
-              "RelativeToolTip": "KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwBoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ServerFrm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs",
+              "RelativeDocumentMoniker": "Server\\ServerFrm.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs [Design]",
+              "RelativeToolTip": "Server\\ServerFrm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T17:34:44.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T22:10:36.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FrmPretrazi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs [Design]",
-              "RelativeToolTip": "KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs [Design]",
+              "DocumentIndex": 14,
+              "Title": "PretraziZakupacOp.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziZakupacOp.cs",
+              "RelativeDocumentMoniker": "Server\\Operacije\\PretraziZakupacOp.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziZakupacOp.cs",
+              "RelativeToolTip": "Server\\Operacije\\PretraziZakupacOp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T15:58:56.875Z"
+              "WhenOpened": "2025-10-22T15:50:22.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FrmPretrazi.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs",
-              "RelativeToolTip": "KorisnickiInterfejs\\ZakupacForme\\FrmPretrazi.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAADwv8gAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "PretraziUgovorOpcs.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziUgovorOpcs.cs",
+              "RelativeDocumentMoniker": "Server\\Operacije\\PretraziUgovorOpcs.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\PretraziUgovorOpcs.cs",
+              "RelativeToolTip": "Server\\Operacije\\PretraziUgovorOpcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T15:10:45.134Z"
+              "WhenOpened": "2025-10-22T15:50:24.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 15,
               "Title": "Zahtev.cs",
               "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Zahtev.cs",
               "RelativeDocumentMoniker": "Zajednicki\\Zahtev.cs",
@@ -501,269 +280,19 @@
               "RelativeToolTip": "Zajednicki\\Zahtev.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T17:10:43.18Z"
+              "WhenOpened": "2025-10-22T15:41:32.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Operacija.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Operacija.cs",
-              "RelativeDocumentMoniker": "Zajednicki\\Operacija.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Operacija.cs",
-              "RelativeToolTip": "Zajednicki\\Operacija.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T16:04:23.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "FrmKreirajZakupca.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs [Design]",
-              "RelativeToolTip": "KorisnickiInterfejs\\ZakupacForme\\FrmKreirajZakupca.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T17:34:42.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FrmPretraziUgovore.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs",
-              "RelativeToolTip": "KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAUwCgBAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T15:09:14.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "FrmPretraziUgovore.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs [Design]",
-              "RelativeToolTip": "KorisnickiInterfejs\\UgovorForme\\FrmPretraziUgovore.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T21:32:57.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FrmKreirajUgovor.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs",
-              "RelativeToolTip": "KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAAAANEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T15:36:16.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "FrmKreirajUgovor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs [Design]",
-              "RelativeToolTip": "KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T19:00:58.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ServerFrm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs",
-              "RelativeDocumentMoniker": "Server\\ServerFrm.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs [Design]",
-              "RelativeToolTip": "Server\\ServerFrm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T16:49:31.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "FrmMain.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\FrmMain.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\FrmMain.cs",
-              "RelativeToolTip": "KorisnickiInterfejs\\FrmMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T17:18:00.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FrmKreirajUgovor.resx",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.resx",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.resx",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.resx",
-              "RelativeToolTip": "KorisnickiInterfejs\\UgovorForme\\FrmKreirajUgovor.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-10-18T17:36:26.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "FrmMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\FrmMain.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\FrmMain.cs [Design]",
-              "RelativeToolTip": "KorisnickiInterfejs\\FrmMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T16:47:12.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ServerFrm.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs",
-              "RelativeDocumentMoniker": "Server\\ServerFrm.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\ServerFrm.cs",
-              "RelativeToolTip": "Server\\ServerFrm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T16:49:44.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "FrmUbaciTerminIznajmljivanja.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs",
-              "RelativeToolTip": "KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:29:17.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "FrmUbaciTerminIznajmljivanja.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs",
-              "RelativeDocumentMoniker": "KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs [Design]",
-              "RelativeToolTip": "KorisnickiInterfejs\\StanodavacForme\\FrmUbaciTerminIznajmljivanja.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:24:42.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Zakupac.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Zakupac.cs",
-              "RelativeDocumentMoniker": "Domen\\Zakupac.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Zakupac.cs",
-              "RelativeToolTip": "Domen\\Zakupac.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T15:28:39.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "OpisStatusa.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\OpisStatusa.cs",
-              "RelativeDocumentMoniker": "Domen\\OpisStatusa.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\OpisStatusa.cs",
-              "RelativeToolTip": "Domen\\OpisStatusa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T16:13:24.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UbaciTerminIzinajmljivanjaPodaci.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\UbaciTerminIzinajmljivanjaPodaci.cs",
-              "RelativeDocumentMoniker": "Zajednicki\\UbaciTerminIzinajmljivanjaPodaci.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\UbaciTerminIzinajmljivanjaPodaci.cs",
-              "RelativeToolTip": "Zajednicki\\UbaciTerminIzinajmljivanjaPodaci.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T16:07:02.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Server.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Server.cs",
-              "RelativeDocumentMoniker": "Server\\Server.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Server.cs",
-              "RelativeToolTip": "Server\\Server.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAiwGsAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T16:50:26.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Status.cs",
-              "RelativeDocumentMoniker": "Domen\\Status.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Status.cs",
-              "RelativeToolTip": "Domen\\Status.cs",
+              "DocumentIndex": 16,
+              "Title": "KreirajZakupacOp.cs",
+              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\KreirajZakupacOp.cs",
+              "RelativeDocumentMoniker": "Server\\Operacije\\KreirajZakupacOp.cs",
+              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Operacije\\KreirajZakupacOp.cs",
+              "RelativeToolTip": "Server\\Operacije\\KreirajZakupacOp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:25:31.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UgovorSearchParametri.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\UgovorSearchParametri.cs",
-              "RelativeDocumentMoniker": "Zajednicki\\UgovorSearchParametri.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\UgovorSearchParametri.cs",
-              "RelativeToolTip": "Zajednicki\\UgovorSearchParametri.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T17:10:45.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "StavkaUgovora.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\StavkaUgovora.cs",
-              "RelativeDocumentMoniker": "Domen\\StavkaUgovora.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\StavkaUgovora.cs",
-              "RelativeToolTip": "Domen\\StavkaUgovora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T15:50:43.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ZakupacSearchParametri.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\ZakupacSearchParametri.cs",
-              "RelativeDocumentMoniker": "Zajednicki\\ZakupacSearchParametri.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\ZakupacSearchParametri.cs",
-              "RelativeToolTip": "Zajednicki\\ZakupacSearchParametri.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T17:10:35.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Stan.cs",
-              "DocumentMoniker": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Stan.cs",
-              "RelativeDocumentMoniker": "Domen\\Stan.cs",
-              "ToolTip": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Stan.cs",
-              "RelativeToolTip": "Domen\\Stan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T15:33:21.911Z"
+              "WhenOpened": "2025-10-22T11:32:32.755Z"
             }
           ]
         }

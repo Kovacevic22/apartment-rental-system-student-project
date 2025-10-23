@@ -1,4 +1,5 @@
 ﻿using BrokerBazePodataka;
+using Domen;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace Server.Operacije
         protected override object IzvrsiOperaciju(object podaci)
         {
             int idUgovor = (int)podaci;
-            var ugovorSaStavkama = broker.VratiUgovorSaStavkama(idUgovor);
+            Ugovor ugovorSaStavkama = broker.VratiUgovorSaStavkama(idUgovor);
             return ugovorSaStavkama;
         }
         protected override string PorukaUspesno()

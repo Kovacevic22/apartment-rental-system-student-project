@@ -202,7 +202,7 @@ namespace KorisnickiInterfejs.UgovorForme
             catch (Exception ex)
             {
                 Helper.ProveraServerGreske(ex);
-                MessageBox.Show($"Sistem ne moze da kreira ugovor. {ex.Message}", "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{ex.Message}", "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KorisnickiInterfejs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f1e0664857dc0df6fe2ed4b69e3598a5318fc20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f8e0b6eec47def090097a27d4e39f6d8ae4ad18")]
 [assembly: System.Reflection.AssemblyProductAttribute("KorisnickiInterfejs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KorisnickiInterfejs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
