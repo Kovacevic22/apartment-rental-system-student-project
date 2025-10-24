@@ -16,24 +16,51 @@ namespace Domen
         public Stan Stan { get; set; }
 
         public string TableName => "StavkaUgovora";
-
-        public string Values => $"{IdUgovora}, {Rb}, {Stan.IdStan}, {Iznos}";
+        public string InsertColumns => "idUgovor, rb, idStan, Iznos";
+        public string InsertValues => "@IdUgovora, @Rb, @IdStan, @Iznos";
+        public string UpdateSetClause => "idStan=@IdStan, Iznos=@Iznos";
+        public string WhereClause => "idUgovor=@IdUgovora AND rb=@Rb";
+        public Dictionary<string, object> GetParameters()
+        {
+            return new Dictionary<string, object>
+            {
+                { "@IdUgovora", IdUgovora },
+                { "@Rb", Rb },
+                { "@IdStan", IdStan },
+                { "@Iznos", Iznos }
+            };
+        }
 
         public List<IEntity> GetReaderList(SqlDataReader reader)
         {
-            List<IEntity> list = new List<IEntity>();
+            List<IEntity> lista = new List<IEntity>();
             while (reader.Read())
             {
-                StavkaUgovora stavka = new StavkaUgovora
+                lista.Add(new StavkaUgovora
                 {
                     IdUgovora = (int)reader["idUgovor"],
                     Rb = (int)reader["rb"],
-                    Stan = new Stan { IdStan = (int)reader["idStan"] },
-                    Iznos = Convert.ToDecimal(reader["Iznos"])
-                };
-                list.Add(stavka);
+                    IdStan = (int)reader["idStan"], 
+                    Iznos = Convert.ToDecimal(reader["Iznos"]),
+                    Stan = new Stan
+                    {
+                        IdStan = (int)reader["idStan"], 
+                        Adresa = (string)reader["Adresa"],
+                        Povrsina = (int)reader["Povrsina"],
+                        TipStana = (TipStana)Convert.ToInt32(reader["TipStana"]),
+                        BrojSoba = (double)reader["BrojSoba"]
+                    }
+                });
             }
-            return list;
+            return lista;
+        }
+        public Dictionary<string, object> GetWhereParameters()
+        {
+            return new Dictionary<string, object>
+            {
+                { "@IdUgovora", IdUgovora },
+                { "@Rb", Rb }
+            };
         }
     }
 }

@@ -10,7 +10,15 @@ namespace Domen
     public interface IEntity
     {
         string TableName { get; }
-        string Values { get; }
+        string InsertColumns { get; }
+        string InsertValues { get; }
+        string UpdateSetClause { get; }
+        string WhereClause { get; }
+        Dictionary<string, object> GetParameters();
         List<IEntity> GetReaderList(SqlDataReader reader);
+
+        //
+        Dictionary<string, object> GetWhereParameters();
+
     }
 }

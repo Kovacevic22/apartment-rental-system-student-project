@@ -14,24 +14,41 @@ namespace Domen
         public DateTime DatumDo {  get; set; }
         public Status Status { get; set; }
 
+
         public string TableName => "TerminIznajmljivanja";
-
-        public string Values => $"'{DatumOd:yyyy-MM-dd}', '{DatumDo:yyyy-MM-dd}'";
-
-        public List<IEntity> GetReaderList(SqlDataReader reader)
+        public string InsertColumns => "DatumOd, DatumDo";
+        public string InsertValues => "@DatumOd, @DatumDo";
+        public string UpdateSetClause => "DatumOd=@DatumOd, DatumDo=@DatumDo";
+        public string WhereClause => "idTerminIz=@IdTerminIz";
+        public Dictionary<string, object> GetParameters()
         {
-            List<IEntity> list = new List<IEntity>();
+            return new Dictionary<string, object>
+            {
+                { "@IdTerminIz", IdTerminIz },
+                { "@DatumOd", DatumOd },
+                { "@DatumDo", DatumDo }
+            };
+        }
+        public List<IEntity> GetReaderList(SqlDataReader reader)
+        {
+            List<IEntity> lista = new List<IEntity>();
             while (reader.Read())
             {
-                TerminIznajmljivanja termin = new TerminIznajmljivanja
+                lista.Add(new TerminIznajmljivanja
                 {
                     IdTerminIz = (int)reader["idTerminIz"],
                     DatumOd = (DateTime)reader["DatumOd"],
                     DatumDo = (DateTime)reader["DatumDo"]
-                };
-                list.Add(termin);
+                });
             }
-            return list;
+            return lista;
+        }
+        public Dictionary<string, object> GetWhereParameters()
+        {
+            return new Dictionary<string, object>
+            {
+                { "@IdTerminIz", IdTerminIz }
+            };
         }
     }
 }

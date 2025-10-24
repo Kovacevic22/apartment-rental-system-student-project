@@ -12,15 +12,29 @@ namespace Domen
         public string Password { get; set; }
 
         public string TableName => "Stanodavac";
-
-        public string Values => $"'{Ime}', '{Prezime}', '{BrojTelefona}', '{Email}', '{Password}'";
+        public string InsertColumns => "Ime, Prezime, BrojTelefona, Email, Password";
+        public string InsertValues => "@Ime, @Prezime, @BrojTelefona, @Email, @Password";
+        public string UpdateSetClause => "Ime=@Ime, Prezime=@Prezime, BrojTelefona=@BrojTelefona, Email=@Email, Password=@Password";
+        public string WhereClause => "idStanodavac=@IdStanodavac";
+        public Dictionary<string, object> GetParameters()
+        {
+            return new Dictionary<string, object>
+            {
+                { "@IdStanodavac", IdStanodavac },
+                { "@Ime", Ime },
+                { "@Prezime", Prezime },
+                { "@BrojTelefona", BrojTelefona },
+                { "@Email", Email },
+                { "@Password", Password }
+            };
+        }
 
         public List<IEntity> GetReaderList(SqlDataReader reader)
         {
-            List<IEntity> list = new List<IEntity>();
+            List<IEntity> lista = new List<IEntity>();
             while (reader.Read())
             {
-                Stanodavac stanodavac = new Stanodavac
+                lista.Add(new Stanodavac
                 {
                     IdStanodavac = (int)reader["idStanodavac"],
                     Ime = (string)reader["Ime"],
@@ -28,10 +42,16 @@ namespace Domen
                     BrojTelefona = (string)reader["BrojTelefona"],
                     Email = (string)reader["Email"],
                     Password = (string)reader["Password"]
-                };
-                list.Add(stanodavac);
+                });
             }
-            return list;
+            return lista;
+        }
+        public Dictionary<string, object> GetWhereParameters()
+        {
+            return new Dictionary<string, object>
+            {
+                { "@IdStanodavac", IdStanodavac }
+            };
         }
     }
 }

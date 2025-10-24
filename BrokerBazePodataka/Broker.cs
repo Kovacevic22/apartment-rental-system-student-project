@@ -100,5 +100,12 @@ namespace BrokerBazePodataka
                 return cmd.ExecuteScalar();
             }
         }
+
+        public bool IsConnectionOpen()
+        {
+            if (connection == null) return false;
+            return connection.State == ConnectionState.Open;
+        }
+
     }
 }

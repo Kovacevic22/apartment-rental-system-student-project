@@ -68,9 +68,22 @@ namespace KorisnickiInterfejs.UgovorForme
                 dgvPretragaUgovora.Columns["IdStanodavac"].Visible = false;
                 dgvPretragaUgovora.Columns["IdZakupac"].Visible = false;
                 dgvPretragaUgovora.Columns["Iznos"].Visible = false;
+                dgvPretragaUgovora.Columns["IdUgovor"].Visible = false;
+                dgvPretragaUgovora.Columns["IdStanodavac"].Visible = false;
+                dgvPretragaUgovora.Columns["IdZakupac"].Visible = false;
+                dgvPretragaUgovora.Columns["TableName"].Visible = false;
+                dgvPretragaUgovora.Columns["InsertColumns"].Visible = false;
+                dgvPretragaUgovora.Columns["InsertValues"].Visible = false;
+                dgvPretragaUgovora.Columns["UpdateSetClause"].Visible = false;
+                dgvPretragaUgovora.Columns["WhereClause"].Visible = false;
 
-                dgvStanoviUgovor.Columns["IdUgovora"].Visible = false;
-                dgvStanoviUgovor.Columns["IdStan"].Visible = false;
+                dgvStanoviUgovor.Columns["TableName"].Visible = false;
+                dgvStanoviUgovor.Columns["InsertColumns"].Visible = false;
+                dgvStanoviUgovor.Columns["InsertValues"].Visible = false;
+                dgvStanoviUgovor.Columns["UpdateSetClause"].Visible = false;
+                dgvStanoviUgovor.Columns["WhereClause"].Visible = false;
+                dgvStanoviUgovor.Columns["Idstan"].Visible=false;
+
 
                 dgvPretragaUgovora.Columns["DatumOd"].HeaderText = "Datum od";
                 dgvPretragaUgovora.Columns["DatumDo"].HeaderText = "Datum do";
@@ -78,7 +91,7 @@ namespace KorisnickiInterfejs.UgovorForme
                 dgvPretragaUgovora.Columns["ZakupacImePrezime"].HeaderText = "Zakupac";
                 dgvPretragaUgovora.Columns["UkupanIznos"].HeaderText = "Ukupan iznos";
 
-                dgvStanoviUgovor.Columns["IdStan"].HeaderText = "ID stana";
+                dgvStanoviUgovor.Columns["Stan"].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
                 dgvStanoviUgovor.Columns["Iznos"].HeaderText = "Iznos";
                 dgvStanoviUgovor.Columns["Stan"].HeaderText = "Stan";
 

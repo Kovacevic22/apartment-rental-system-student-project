@@ -11,3 +11,15 @@ C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Deb
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Debug\net8.0\ref\Domen.dll
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Debug\net8.0\Domen.sourcelink.json
 C:\Users\Kovac\Desktop\ProjektovanjeSoftvera\IznajmljivanjeStanova\Domen\obj\Debug\net8.0\Domen.csproj.AssemblyReference.cache
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\bin\Debug\net8.0\Domen.deps.json
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\bin\Debug\net8.0\Domen.dll
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\bin\Debug\net8.0\Domen.pdb
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\Domen.csproj.AssemblyReference.cache
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\Domen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\Domen.AssemblyInfoInputs.cache
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\Domen.AssemblyInfo.cs
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\Domen.csproj.CoreCompileInputs.cache
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\Domen.dll
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\refint\Domen.dll
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\Domen.pdb
+C:\Users\Kovac\Desktop\apartment-rental-system-student-project-main\apartment-rental-system-student-project-main\Domen\obj\Debug\net8.0\ref\Domen.dll

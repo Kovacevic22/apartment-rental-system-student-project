@@ -57,6 +57,12 @@ namespace KorisnickiInterfejs.ZakupacForme
                 dgvPrikazZakupaca.Columns["ImePrezime"].Visible = false;
                 dgvPrikazZakupaca.RowHeadersVisible = false;
 
+                dgvPrikazZakupaca.Columns["TableName"].Visible = false;
+                dgvPrikazZakupaca.Columns["InsertColumns"].Visible = false;
+                dgvPrikazZakupaca.Columns["InsertValues"].Visible = false;
+                dgvPrikazZakupaca.Columns["UpdateSetClause"].Visible = false;
+                dgvPrikazZakupaca.Columns["WhereClause"].Visible = false;
+
             }
             catch (Exception ex)
             {

@@ -11,21 +11,29 @@ namespace Server.Operacije
 {
     public class ObrisiZakupacOp : OperacijaBaze
     {
-        private BrokerBP broker;
-        public ObrisiZakupacOp(BrokerBP broker)
-        {
-            this.broker = broker;
-        }
+        private BrokerBP broker = new BrokerBP();
+
         protected override object DeserijalizujPodatke(object podaci)
         {
             return JsonSerializer.Deserialize<int>((JsonElement)podaci);
         }
+
         protected override object IzvrsiOperaciju(object podaci)
         {
-            int idZakupac = (int)podaci;
-            broker.ObrisiZakupac(idZakupac);
+            int zakupacId = (int)podaci;
+
+            string upitProvera = "SELECT COUNT(*) FROM Ugovor WHERE idZakupac=@zakupacId";
+            var parametar = new Dictionary<string, object> { { "@zakupacId", zakupacId } };
+
+            int count = Convert.ToInt32(broker.ExecuteScalar(upitProvera, parametar));
+            if (count > 0)
+            {
+                throw new Exception("Sistem ne moze da obrise zakupca, jer postoji ugovor povezan s njim.");
+            }
+            broker.Delete(new Zakupac { IdZakupac = zakupacId });
             return null;
         }
+
         protected override string PorukaUspesno()
         {
             return "Sistem je obrisao zakupca.";

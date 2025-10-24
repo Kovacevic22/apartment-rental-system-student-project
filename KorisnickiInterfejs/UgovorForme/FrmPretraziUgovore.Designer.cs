@@ -337,9 +337,9 @@
             // groupBox3
             // 
             groupBox3.Controls.Add(dgvStanoviUgovor);
-            groupBox3.Location = new Point(544, 439);
+            groupBox3.Location = new Point(416, 439);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(581, 278);
+            groupBox3.Size = new Size(709, 278);
             groupBox3.TabIndex = 12;
             groupBox3.TabStop = false;
             groupBox3.Text = "Stanovi u ugovoru";
@@ -359,7 +359,7 @@
             dgvStanoviUgovor.RowHeadersVisible = false;
             dgvStanoviUgovor.RowHeadersWidth = 51;
             dgvStanoviUgovor.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvStanoviUgovor.Size = new Size(560, 209);
+            dgvStanoviUgovor.Size = new Size(688, 209);
             dgvStanoviUgovor.TabIndex = 0;
             dgvStanoviUgovor.CellDoubleClick += dgvStanoviUgovor_CellDoubleClick;
             // 

@@ -21,14 +21,34 @@ namespace Domen
 
         public string TableName => "Zakupac";
 
-        public string Values => $"'{Ime}', '{Prezime}', '{BrojTelefona}', '{Email}', '{Password}', '{IdMesto}'";
+        public string InsertColumns => "Ime, Prezime, BrojTelefona, Email, Password, idMesto";
+
+        public string InsertValues => "@Ime, @Prezime, @BrojTelefona, @Email, @Password, @IdMesto";
+
+        public string UpdateSetClause => "Ime=@Ime, Prezime=@Prezime, BrojTelefona=@BrojTelefona, Email=@Email, Password=@Password, idMesto=@IdMesto";
+
+        public string WhereClause => "idZakupac=@IdZakupac";
+
+        public Dictionary<string, object> GetParameters()
+        {
+            return new Dictionary<string, object>
+            {
+                { "@IdZakupac", IdZakupac },
+                { "@Ime", Ime },
+                { "@Prezime", Prezime },
+                { "@BrojTelefona", BrojTelefona },
+                { "@Email", Email },
+                { "@Password", Password },
+                { "@IdMesto", IdMesto }
+            };
+        }
 
         public List<IEntity> GetReaderList(SqlDataReader reader)
         {
-            List<IEntity> list = new List<IEntity>();
+            List<IEntity> lista = new List<IEntity>();
             while (reader.Read())
             {
-                Zakupac zakupac = new Zakupac
+                lista.Add(new Zakupac
                 {
                     IdZakupac = (int)reader["idZakupac"],
                     Ime = (string)reader["Ime"],
@@ -37,10 +57,16 @@ namespace Domen
                     Email = (string)reader["Email"],
                     Password = (string)reader["Password"],
                     IdMesto = (int)reader["idMesto"]
-                };
-                list.Add(zakupac);
+                });
             }
-            return list;
+            return lista;
+        }
+        public Dictionary<string, object> GetWhereParameters()
+        {
+            return new Dictionary<string, object>
+            {
+                { "@IdZakupac", IdZakupac }
+            };
         }
     }
 }

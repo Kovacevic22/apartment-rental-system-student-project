@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Zajednicki.csproj": {}
+    "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Zajednicki\\Zajednicki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Domen.csproj": {
+    "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\Domen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Domen.csproj",
+        "projectUniqueName": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\Domen.csproj",
         "projectName": "Domen",
-        "projectPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Domen.csproj",
+        "projectPath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\Domen.csproj",
         "packagesPath": "C:\\Users\\Kovac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\obj\\",
+        "outputPath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Zajednicki.csproj": {
+    "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Zajednicki\\Zajednicki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Zajednicki.csproj",
+        "projectUniqueName": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Zajednicki\\Zajednicki.csproj",
         "projectName": "Zajednicki",
-        "projectPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\Zajednicki.csproj",
+        "projectPath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Zajednicki\\Zajednicki.csproj",
         "packagesPath": "C:\\Users\\Kovac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Zajednicki\\obj\\",
+        "outputPath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Zajednicki\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Domen.csproj": {
-                "projectPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Domen.csproj"
+              "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\Domen.csproj": {
+                "projectPath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\Domen.csproj"
               }
             }
           }

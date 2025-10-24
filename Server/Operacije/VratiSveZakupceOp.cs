@@ -10,23 +10,22 @@ namespace Server.Operacije
 {
     public class VratiSveZakupceOp : OperacijaBaze
     {
-        private BrokerBP broker;
-        public VratiSveZakupceOp(BrokerBP broker)
-        {
-            this.broker = broker;
-        }
+        private BrokerBP broker = new BrokerBP();
+
         protected override object DeserijalizujPodatke(object podaci)
         {
             return null;
         }
+
         protected override object IzvrsiOperaciju(object podaci)
         {
-            List<Zakupac> zakupci = broker.VratiSveZakupce();
-            return zakupci;
+            List<IEntity> entities = broker.GetAll(new Zakupac());
+            return entities.Cast<Zakupac>().ToList();
         }
+
         protected override string PorukaUspesno()
         {
-            return "Sistem je ucitao sve zakupce";
+            return "Sistem je ucitao zakupce.";
         }
     }
 }

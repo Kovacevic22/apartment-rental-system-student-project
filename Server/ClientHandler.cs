@@ -23,7 +23,6 @@ namespace Server
         {
             serverFrm?.DodajLog($"Klijent povezan: {klijentskiSocket.RemoteEndPoint}");
             JsonNetworkSerializer serializer = new JsonNetworkSerializer(klijentskiSocket);
-            BrokerBP broker = new BrokerBP();
             try
             {
                 while (true)
@@ -32,7 +31,7 @@ namespace Server
                     if (zahtev == null) break;
                     serverFrm?.DodajLog($"Stigao zahtev: {zahtev.Operacija}");
                     Odgovor odgovor;
-                    OperacijaBaze operacija = KreirajOperaciju(zahtev.Operacija, broker);
+                    OperacijaBaze operacija = KreirajOperaciju(zahtev.Operacija);
                     if(operacija != null)
                     {
                         odgovor = operacija.Izvrsi(zahtev, serverFrm);
@@ -69,50 +68,50 @@ namespace Server
             }
         }
 
-        private OperacijaBaze KreirajOperaciju(Operacija op, BrokerBP broker)
+        private OperacijaBaze KreirajOperaciju(Operacija op)
         {
             switch (op)
             {
                 case Operacija.PrijaviStanodavac:
-                    return new PrijaviStanodavacOp(broker, server, klijentskiSocket);
+                    return new PrijaviStanodavacOp(server, klijentskiSocket);
                 case Operacija.KreirajZakupac:
-                    return new KreirajZakupacOp(broker);
+                    return new KreirajZakupacOp();
 
                 case Operacija.VratiSvaMesta:
-                    return new VratiSvaMestaOp(broker);
+                    return new VratiSvaMestaOp();
 
                 case Operacija.VratiSveZakupce:
-                    return new VratiSveZakupceOp(broker);
+                    return new VratiSveZakupceOp();
 
                 case Operacija.PretraziZakupac:
-                    return new PretraziZakupacOp(broker);
+                    return new PretraziZakupacOp();
 
                 case Operacija.PromeniZakupac:
-                    return new PromeniZakupacOp(broker);
+                    return new PromeniZakupacOp();
 
                 case Operacija.ObrisiZakupac:
-                    return new ObrisiZakupacOp(broker);
+                    return new ObrisiZakupacOp();
 
                 case Operacija.VratiSveStanove:
-                    return new VratiSveStanoveOp(broker);
+                    return new VratiSveStanoveOp();
 
                 case Operacija.KreirajUgovor:
-                    return new KreirajUgovorOp(broker);
+                    return new KreirajUgovorOp();
 
                 case Operacija.PretraziUgovor:
-                    return new PretraziUgovorOpcs(broker);
+                    return new PretraziUgovorOpcs();
 
                 case Operacija.VratiSveUgovore:
-                    return new VratiSveUgovoreOp(broker);
+                    return new VratiSveUgovoreOp();
 
                 case Operacija.VratiUgovorSaStavkama:
-                    return new VratiUgovorSaStavkamaOp(broker);
+                    return new VratiUgovorSaStavkamaOp();
 
                 case Operacija.PromeniUgovor:
-                    return new PromeniUgovorOp(broker);
+                    return new PromeniUgovorOp();
 
                 case Operacija.UbaciTerminIznajmljivanja:
-                    return new UbaciTerminIznajmljivanjaOp(broker);
+                    return new UbaciTerminIznajmljivanjaOp();
 
                 default:
                     return null;
