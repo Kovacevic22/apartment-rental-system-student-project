@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "737koPhiPwo=",
+  "dgSpecHash": "yV1yPn08u94=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kovac\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Kovac\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

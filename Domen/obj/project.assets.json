@@ -1604,11 +1604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\Domen.csproj",
+      "projectUniqueName": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Domen.csproj",
       "projectName": "Domen",
-      "projectPath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\Domen.csproj",
+      "projectPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\Domen.csproj",
       "packagesPath": "C:\\Users\\Kovac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kovac\\Desktop\\apartment-rental-system-student-project-main\\apartment-rental-system-student-project-main\\Domen\\obj\\",
+      "outputPath": "C:\\Users\\Kovac\\Desktop\\ProjektovanjeSoftvera\\IznajmljivanjeStanova\\Domen\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
